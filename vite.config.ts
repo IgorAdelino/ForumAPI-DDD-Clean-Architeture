@@ -6,7 +6,5 @@ export default defineConfig ( {
   test: {
     globals: true,
   },
-  build: {
-    commonjsOptions: {transformMixedEsModules: true,}
-  }
+
 })
